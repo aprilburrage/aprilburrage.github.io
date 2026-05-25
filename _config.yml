@@ -47,7 +47,7 @@ external_services:
 navbar_fixed: false
 footer_fixed: false
 search_enabled: false
-socials_in_search: true
+socials_in_search: false
 posts_in_search: false
 bib_search: true
 max_width: 930px
