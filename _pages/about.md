@@ -19,7 +19,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Stanford Provostial Fellow and Lecturer in the Department of Management Science and Engineering, affiliated with the Center for Work, Technology, and Organizations and the Stanford Technology Ventures Program. My research examines how policy design and program structures shape entrepreneurial entry and innovative activity in high-technology industries.
+I am a Stanford Provostial Fellow and Lecturer in the Department of Management Science and Engineering, affiliated with the Center for Work, Technology, and Organizations and the Stanford Technology Ventures Program. My research examines how policy design and program structures shape entrepreneurial entry and innovative activity in high-technology industries. My research has been published in *Research Policy* and the *Journal of Economics & Management Strategy*.
 
 I am on the 2026–2027 job market.
 
