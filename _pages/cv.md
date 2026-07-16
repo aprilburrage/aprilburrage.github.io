@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 ---
 <div style="text-align: center; margin-bottom: 1em;">
-  <a href="/assets/pdf/2026-05_burrage-cv.pdf" target="_blank">Download CV (PDF)</a>
+  <a href="/assets/pdf/2026-07_burrage-cv.pdf" target="_blank">Download CV (PDF)</a>
 </div>
 
 <iframe 
