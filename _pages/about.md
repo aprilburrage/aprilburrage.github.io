@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>aburrage@stanford.edu</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 announcements:
   enabled: false
