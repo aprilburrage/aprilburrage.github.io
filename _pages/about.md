@@ -19,10 +19,10 @@ latest_posts:
   enabled: false
 ---
 
-I am a Stanford Provostial Fellow and Lecturer in the Department of Management Science and Engineering, affiliated with the Center for Work, Technology, and Organizations and the Stanford Technology Ventures Program. My research examines how policy design and program structures shape entrepreneurial entry and innovative activity in high-technology industries. My research has been published in *Research Policy* and the *Journal of Economics & Management Strategy*.
+I am a Stanford Provostial Fellow and Lecturer in the Department of Management Science and Engineering. My research asks what helps people with STEM backgrounds turn their technical expertise into new ventures and grow them successfully. I am especially interested in how policy, funding, and access to resources shape who becomes an entrepreneur, where new ideas get developed, and which ventures are able to grow.
 
-I am on the 2026–2027 job market.
+My work has been published in *Research Policy* and the *Journal of Economics & Management Strategy*. I am on the 2026–2027 job market.
 
-At Stanford, I designed and teach an undergraduate course on social entrepreneurship. Before earning my Ph.D., I worked in financial services and digital media, managing relationships with C-suite leaders at large corporations, entrepreneurs, and small-business owners. These experiences continue to shape how I approach both research and teaching.
+Earlier in my career, I worked in financial services and digital media, where I advised corporate executives, entrepreneurs, and small-business owners. Those experiences continue to shape the questions I study and how I think about entrepreneurship, growth, and risk.
 
 Outside of work, I enjoy visiting museums, discovering new music, and finding a great book I cannot put down.
