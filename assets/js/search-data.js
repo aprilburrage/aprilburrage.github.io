@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-job-market-paper",
+          title: "Job Market Paper",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/https:/aprilburrage.github.io/job-market-paper/burrage-grennan_job-market-paper.pdf";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
