@@ -21,7 +21,7 @@ latest_posts:
 
 I’m April Burrage, a Provostial Fellow and Lecturer in the Department of Management Science & Engineering at Stanford University. I am on the 2026–2027 academic job market.
 
-I study **strategy, entrepreneurship, and innovation**. My research examines how workplace rules, policies, and professional networks shape entrepreneurial entry, access to resources, and the development of new ventures. I am particularly interested in how individuals with technical expertise turn their ideas into ventures and how firms and institutions influence where innovation takes place.
+My research examines how workplace rules, policies, and professional networks shape entrepreneurial entry, access to resources, and the development of new ventures. I am particularly interested in how individuals with technical expertise turn their ideas into ventures and how firms and institutions influence where innovation takes place.
 
 In my [**job market paper**](https://aprilburrage.com/job-market-paper/burrage-grennan_job-market-paper.pdf), coauthored with Jillian Grennan, we examine how employer rights over employee inventions affect entrepreneurship. We find that stronger employer claims reduce entrepreneurial entry among inventors. We also study the technological direction of founders and their ventures, examining how their inventions relate to their own prior work and the technologies of their former employers. This research was supported by the Washington Center for Equitable Growth through the 2025 AEA Summer Economics Fellowship.
 
