@@ -19,13 +19,6 @@ latest_posts:
   enabled: false
 ---
 
-
-<div class="home-links">
-  <a href="/publications/">Research</a>
-  <a href="/job-market-paper/burrage-grennan_job-market-paper.pdf">Job Market Paper</a>
-  <a href="/assets/pdf/2026_burrage_cv_web.pdf">CV</a>
-</div>
-
 I’m April Burrage, a Provostial Fellow and Lecturer in the Department of Management Science & Engineering at Stanford University. I am on the 2026–2027 academic job market.
 
 My research examines how workplace rules, policies, and professional networks shape entrepreneurial entry, access to resources, and the development of new ventures. I am particularly interested in how individuals with technical expertise turn their ideas into ventures and how firms and institutions influence where innovation takes place.
