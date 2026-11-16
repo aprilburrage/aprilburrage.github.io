@@ -75,7 +75,7 @@ _styles: |
 
 **Instructor and Course Designer** · Spring 2025, Spring 2026
 
-Designed and developed this undergraduate course for Stanford’s Department of Management Science & Engineering.
+Designed and developed this course for Stanford’s Department of Management Science & Engineering.
 
 <details markdown="1">
 <summary>Course Description</summary>
