@@ -10,7 +10,7 @@ nav_order: 4
 </div>
 
 <iframe 
-  src="/assets/pdf/2026_burrage_cv_web.pdf"
+  src="/assets/pdf/2026_burrage_cv_world.pdf"
   width="100%" 
   height="900px" 
   style="border: none;">
