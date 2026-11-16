@@ -4,6 +4,69 @@ permalink: /publications/
 title: research
 nav: true
 nav_order: 2
+_styles: |
+  .post article h2 {
+    color: #17365D;
+    border-bottom: 2px solid #D8E1EA;
+    padding-bottom: 0.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.4rem;
+  }
+
+  .post article h3 {
+    color: #243B53;
+    font-size: 1.12rem;
+    line-height: 1.45;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .post article a {
+    color: #245A81;
+    text-decoration: none;
+  }
+
+  .post article a:hover {
+    color: #17365D;
+    text-decoration: underline;
+  }
+
+  .post article details {
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .post article summary {
+    color: #245A81;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .post article details[open] summary {
+    margin-bottom: 0.75rem;
+  }
+
+  .post article details p,
+  .post article details li {
+    line-height: 1.75;
+  }
+
+  .post article hr {
+    border: 0;
+    border-top: 1px solid #D8E1EA;
+    margin: 2rem 0;
+  }
+
+  html[data-theme="dark"] .post article h2,
+  html[data-theme="dark"] .post article h3 {
+    color: #B8CFE5;
+  }
+
+  html[data-theme="dark"] .post article a,
+  html[data-theme="dark"] .post article summary {
+    color: #A9D1ED;
+  }
 ---
 
 ## Job Market Paper
