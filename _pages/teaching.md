@@ -8,6 +8,8 @@ nav_order: 3
 
 ## Stanford University
 
+<div class="featured-course" markdown="1">
+
 ### MS&E 176: Social Entrepreneurship
 
 **Instructor and Course Designer** · Spring 2025, Spring 2026
@@ -21,6 +23,7 @@ This course introduces the fundamentals of social entrepreneurship as a process 
 social impact with financial sustainability. The course emphasizes practical decision-making under constraints and the role of capital, partnerships, and ethics in scaling impact-driven
 ventures. The class demonstrates an entrepreneurial mindset applied to social problems. Social entrepreneurs identify opportunities for innovative organizational and market-based solutions. This perspective is valuable not only for launching social ventures, but also for driving change
 within corporations, nonprofits, government, and the investment community. By the conclusion of the course, students will be able to:
+
 1. Articulate a process for identifying a social problem and translating it into a viable social
 venture opportunity.
 2. Design and justify a social impact business model, including the choice of organizational
@@ -32,10 +35,17 @@ decision-making.
 5. Develop and deliver an investment pitch that clearly communicates a venture’s problem,
 solution, impact, and funding strategy.
 
+</details>
+
 **Course Evaluation:**  
 [Spring 2026](/assets/pdf/social-entrepreneurship-evaluations-spring-2026.pdf)
 
-</details>
+Course outline available upon request.
+
+</div>
+
+---
+
 
 Course outline available upon request.
 
