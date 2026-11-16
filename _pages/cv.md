@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 <div style="text-align: center; margin-bottom: 1em;">
   <a href="/assets/pdf/2026_burrage_cv_web.pdf" target="_blank">Download CV (PDF)</a>
