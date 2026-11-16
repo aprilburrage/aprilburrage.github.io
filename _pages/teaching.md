@@ -10,7 +10,11 @@ nav_order: 3
 
 ### MS&E 176: Social Entrepreneurship
 
-**Instructor** · Spring 2025, Spring 2026
+### MS&E 176: Social Entrepreneurship
+
+**Instructor and Course Designer** · Spring 2025, Spring 2026
+
+Designed and developed this course for Stanford’s Department of Management Science & Engineering.
 
 <details markdown="1">
 <summary>Course Description</summary>
