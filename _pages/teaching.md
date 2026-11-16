@@ -45,8 +45,3 @@ Course outline available upon request.
 </div>
 
 ---
-
-
-Course outline available upon request.
-
----
