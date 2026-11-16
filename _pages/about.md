@@ -27,7 +27,7 @@ In my [**job market paper**](https://aprilburrage.com/job-market-paper/burrage-g
 
 My broader research examines how firms navigate opportunities to support innovation, how entrepreneurs draw on career experiences and networks to acquire resources, and how institutions identify and support inventive talent. Across these projects, I use longitudinal data, causal inference, field experiments, and text analysis to study questions at the intersection of entrepreneurship, innovation, and strategy.
 
-My research has been published in Research Policy, the Journal of Economics & Management Strategy, and Environmental Research Letters, and has been cited by the Brookings Institution. My research has received support from the National Science Foundation and the Alfred P. Sloan Foundation.
+My research has been published in *Research Policy*, the *Journal of Economics & Management Strategy*, and *Environmental Research Letters*, and has been cited by the Brookings Institution. My research has received support from the National Science Foundation and the Alfred P. Sloan Foundation.
 
 At Stanford, I designed and teach Social Entrepreneurship, an undergraduate course that examines how entrepreneurs develop ventures to address social challenges.
 
