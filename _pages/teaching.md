@@ -99,6 +99,5 @@ By the end of the course, students will be able to:
 
 Course outline available upon request.
 
-</div>
 
 ---
