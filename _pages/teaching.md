@@ -9,11 +9,11 @@ nav_order: 3
 <style>
   .teaching-page h2,
   .teaching-page h3 {
-    color: #5b2434 !important;
+    color: #17365d !important;
   }
 
   .teaching-page h2 {
-    border-bottom: 1px solid #e3d6d9;
+    border-bottom: 1px solid #d8e1ea;
     padding-bottom: 0.45rem;
     margin-top: 1.5rem;
   }
@@ -23,8 +23,8 @@ nav_order: 3
   }
 
   .teaching-highlight {
-    background-color: #f8f3f4;
-    border-left: 4px solid #5b2434;
+    background-color: #f3f6f9;
+    border-left: 4px solid #17365d;
     padding: 0.85rem 1rem;
     margin: 1rem 0;
   }
@@ -38,9 +38,9 @@ nav_order: 3
     display: inline-block;
     cursor: pointer;
     padding: 0.35rem 0.8rem;
-    border: 1px solid #5b2434;
+    border: 1px solid #17365d;
     border-radius: 4px;
-    color: #5b2434;
+    color: #17365d;
     font-size: 0.9rem;
     font-weight: 600;
   }
@@ -58,7 +58,7 @@ nav_order: 3
   }
 
   .teaching-page summary:hover {
-    background-color: #f8f3f4;
+    background-color: #f3f6f9;
   }
 
   /* Teaching evaluations button */
@@ -66,35 +66,35 @@ nav_order: 3
     display: inline-block;
     padding: 0.35rem 0.8rem;
     margin: 0.35rem 0;
-    border: 1px solid #5b2434;
+    border: 1px solid #17365d;
     border-radius: 4px;
-    color: #5b2434 !important;
+    color: #17365d !important;
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none !important;
   }
 
   .teaching-page a.teaching-button:hover {
-    background-color: #f8f3f4;
+    background-color: #f3f6f9;
   }
 
-  /* Improve contrast in dark mode */
+  /* Dark mode */
   html[data-theme="dark"] .teaching-page h2,
   html[data-theme="dark"] .teaching-page h3,
   html[data-theme="dark"] .teaching-page summary,
   html[data-theme="dark"] .teaching-page a.teaching-button {
-    color: #e8c6cf !important;
-    border-color: #e8c6cf;
+    color: #b8cfe5 !important;
+    border-color: #b8cfe5;
   }
 
   html[data-theme="dark"] .teaching-highlight {
-    background-color: #443038;
-    border-left-color: #e8c6cf;
+    background-color: #263b50;
+    border-left-color: #b8cfe5;
   }
 
   html[data-theme="dark"] .teaching-page summary:hover,
   html[data-theme="dark"] .teaching-page a.teaching-button:hover {
-    background-color: #443038;
+    background-color: #263b50;
   }
 </style>
 
