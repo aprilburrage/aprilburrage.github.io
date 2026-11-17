@@ -55,8 +55,6 @@ nav_order: 3
 
 **Instructor** · Spring 2025 and Spring 2026
 
-[Spring 2026 Teaching Evaluations](/assets/pdf/social-entrepreneurship-evaluations-spring-2026.pdf)
-
 <div class="teaching-highlight">
   I developed Social Entrepreneurship from the ground up for the Department
   of Management Science &amp; Engineering and serve as its instructor.
@@ -78,6 +76,8 @@ By the conclusion of the course, students will be able to:
 5. Develop and deliver an investment pitch that clearly communicates a venture’s problem, solution, impact, and funding strategy.
 
 </details>
+
+[Spring 2026 Teaching Evaluations](/assets/pdf/social-entrepreneurship-evaluations-spring-2026.pdf)
 
 **Course outline:** Available upon request.
 
