@@ -21,7 +21,7 @@ latest_posts:
 
 I’m April Burrage, a Provostial Fellow and Lecturer in the Department of Management Science & Engineering at Stanford University.
 
-**I am on the 2026–2027 academic job market.**
+**I am on the 2026–2027 job market.**
 
 My research examines how workplace rules, public policies, and professional networks shape entrepreneurship and innovation. I am particularly interested in how individuals with STEM backgrounds develop ideas, pursue entrepreneurial opportunities, and acquire resources to build ventures in high-growth fields.
 
