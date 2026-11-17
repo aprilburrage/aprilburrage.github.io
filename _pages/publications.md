@@ -7,24 +7,22 @@ nav_order: 2
 ---
 
 <style>
-  /* Section headings */
   .research-page h2 {
-    color: #5b2434 !important;
-    border-bottom: 1px solid #e3d6d9;
+    color: #17365d !important;
+    border-bottom: 1px solid #d8e1ea;
     padding-bottom: 0.45rem;
     margin-top: 2.5rem;
     margin-bottom: 1.25rem;
   }
 
   .research-page h3 {
-    color: #5b2434 !important;
+    color: #17365d !important;
     font-size: 1.12rem;
     line-height: 1.45;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
 
-  /* Regular links, including coauthors */
   .research-page a {
     color: #245a81;
   }
@@ -38,19 +36,19 @@ nav_order: 2
     display: inline-block;
     padding: 0.35rem 0.8rem;
     margin: 0.35rem 0.4rem 0.35rem 0;
-    border: 1px solid #5b2434;
+    border: 1px solid #17365d;
     border-radius: 4px;
-    color: #5b2434 !important;
+    color: #17365d !important;
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none !important;
   }
 
   .research-page a.research-button:hover {
-    background-color: #f8f3f4;
+    background-color: #f3f6f9;
   }
 
-  /* Abstract buttons */
+  /* Abstract dropdown buttons */
   .research-page details {
     margin: 0.5rem 0 1.5rem;
   }
@@ -59,15 +57,15 @@ nav_order: 2
     display: inline-block;
     cursor: pointer;
     padding: 0.35rem 0.8rem;
-    border: 1px solid #5b2434;
+    border: 1px solid #17365d;
     border-radius: 4px;
-    color: #5b2434;
+    color: #17365d;
     font-size: 0.9rem;
     font-weight: 600;
   }
 
   .research-page summary:hover {
-    background-color: #f8f3f4;
+    background-color: #f3f6f9;
   }
 
   .research-page summary::before {
@@ -88,7 +86,7 @@ nav_order: 2
 
   .research-page hr {
     border: 0;
-    border-top: 1px solid #e3d6d9;
+    border-top: 1px solid #d8e1ea;
     margin: 2rem 0;
   }
 
@@ -126,25 +124,25 @@ nav_order: 2
     text-align: center;
   }
 
-  /* Stack the abstract and figure on smaller screens */
+  /* Stack abstract and figure on smaller screens */
   @media (max-width: 768px) {
     .research-page .abstract-figure {
       grid-template-columns: 1fr;
     }
   }
 
-  /* Improve contrast in dark mode */
+  /* Dark mode */
   html[data-theme="dark"] .research-page h2,
   html[data-theme="dark"] .research-page h3,
   html[data-theme="dark"] .research-page summary,
   html[data-theme="dark"] .research-page a.research-button {
-    color: #e8c6cf !important;
-    border-color: #e8c6cf;
+    color: #b8cfe5 !important;
+    border-color: #b8cfe5;
   }
 
   html[data-theme="dark"] .research-page summary:hover,
   html[data-theme="dark"] .research-page a.research-button:hover {
-    background-color: #443038;
+    background-color: #263b50;
   }
 
   html[data-theme="dark"] .research-page .abstract-figure figcaption {
@@ -325,4 +323,5 @@ with [Tim Carter](https://secondnature.org/team/timothy-carter/) and [Anna Golds
 This report examines how federal funding for academic research on climate solutions is distributed across disciplines and institutions and how research can better contribute to equitable climate solutions. Drawing on data from 1,829 federal grants awarded in fiscal years 2019 and 2020 and interviews with key stakeholders, we find that funding is concentrated in natural sciences, engineering, and institutions with very high research activity. We recommend expanding participation across disciplines and institution types, strengthening partnerships with affected communities and industry, and improving coordination of federal research funding.
 
 </details>
+
 
