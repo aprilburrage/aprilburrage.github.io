@@ -7,22 +7,27 @@ nav_order: 2
 ---
 
 <style>
+  /* Black, bold section headings */
   .research-page h2 {
-    color: #17365d !important;
+    color: #222222 !important;
+    font-weight: 700;
     border-bottom: 1px solid #d8e1ea;
     padding-bottom: 0.45rem;
     margin-top: 2.5rem;
     margin-bottom: 1.25rem;
   }
 
+  /* Black, bold paper titles */
   .research-page h3 {
-    color: #17365d !important;
+    color: #222222 !important;
     font-size: 1.12rem;
     line-height: 1.45;
+    font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
 
+  /* Regular links, including coauthors */
   .research-page a {
     color: #245a81;
   }
@@ -131,9 +136,12 @@ nav_order: 2
     }
   }
 
-  /* Dark mode */
+  /* Light headings and navy buttons in dark mode */
   html[data-theme="dark"] .research-page h2,
-  html[data-theme="dark"] .research-page h3,
+  html[data-theme="dark"] .research-page h3 {
+    color: #eeeeee !important;
+  }
+
   html[data-theme="dark"] .research-page summary,
   html[data-theme="dark"] .research-page a.research-button {
     color: #b8cfe5 !important;
