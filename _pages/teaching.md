@@ -9,7 +9,7 @@ nav_order: 3
 <style>
   .teaching-page h2,
   .teaching-page h3 {
-    color: #5b2434;
+    color: #5b2434 !important;
   }
 
   .teaching-page h2 {
@@ -29,21 +29,72 @@ nav_order: 3
     margin: 1rem 0;
   }
 
+  /* Course description dropdown */
   .teaching-page details {
     margin: 1rem 0;
-    padding: 0.8rem 1rem;
-    border: 1px solid #e3d6d9;
-    border-radius: 4px;
   }
 
   .teaching-page summary {
-    color: #5b2434;
+    display: inline-block;
     cursor: pointer;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid #5b2434;
+    border-radius: 4px;
+    color: #5b2434;
+    font-size: 0.9rem;
     font-weight: 600;
   }
 
-  .teaching-page details[open] summary {
+  .teaching-page summary::before {
+    content: "▸ ";
+  }
+
+  .teaching-page details[open] > summary::before {
+    content: "▾ ";
+  }
+
+  .teaching-page details[open] > summary {
     margin-bottom: 0.8rem;
+  }
+
+  .teaching-page summary:hover {
+    background-color: #f8f3f4;
+  }
+
+  /* Teaching evaluations button */
+  .teaching-page a.teaching-button {
+    display: inline-block;
+    padding: 0.35rem 0.8rem;
+    margin: 0.35rem 0;
+    border: 1px solid #5b2434;
+    border-radius: 4px;
+    color: #5b2434 !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none !important;
+  }
+
+  .teaching-page a.teaching-button:hover {
+    background-color: #f8f3f4;
+  }
+
+  /* Improve contrast in dark mode */
+  html[data-theme="dark"] .teaching-page h2,
+  html[data-theme="dark"] .teaching-page h3,
+  html[data-theme="dark"] .teaching-page summary,
+  html[data-theme="dark"] .teaching-page a.teaching-button {
+    color: #e8c6cf !important;
+    border-color: #e8c6cf;
+  }
+
+  html[data-theme="dark"] .teaching-highlight {
+    background-color: #443038;
+    border-left-color: #e8c6cf;
+  }
+
+  html[data-theme="dark"] .teaching-page summary:hover,
+  html[data-theme="dark"] .teaching-page a.teaching-button:hover {
+    background-color: #443038;
   }
 </style>
 
@@ -76,6 +127,11 @@ By the conclusion of the course, students will be able to:
 5. Develop and deliver an investment pitch that clearly communicates a venture’s problem, solution, impact, and funding strategy.
 
 </details>
+
+<a class="teaching-button" href="/assets/pdf/social-entrepreneurship-evaluations-spring-2026.pdf">Spring 2026 Teaching Evaluations</a>
+
+**Course outline:** Available upon request.
+
 
 [Spring 2026 Teaching Evaluations](/assets/pdf/social-entrepreneurship-evaluations-spring-2026.pdf)
 
