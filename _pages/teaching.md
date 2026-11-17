@@ -132,10 +132,4 @@ By the conclusion of the course, students will be able to:
 
 **Course outline:** Available upon request.
 
-
-[Spring 2026 Teaching Evaluations](/assets/pdf/social-entrepreneurship-evaluations-spring-2026.pdf)
-
-**Course outline:** Available upon request.
-
-
 ---
