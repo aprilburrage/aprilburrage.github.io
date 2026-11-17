@@ -138,14 +138,17 @@ with [Jillian Grennan](https://www.jilliangrennan.com/)
 
 <details>
 <summary>Abstract</summary>
-<div class="abstract-figure">
-<div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; margin-top: 16px;">
+
+<div style="flex: 1 1 350px; min-width: 0;">
 <p>Who owns an idea before it becomes an invention and how do strengthened employer ownership rights shape entrepreneurship? We exploit a 2008 Federal Circuit decision that widened the gap in employer ownership rights over employee inventions across states with and without employee-invention protections. Linking employment histories, patents, and venture-financing data, we examine entrepreneurial transitions among inventors and patent-adjacent workers employed by established firms. Stronger employer rights significantly reduce entrepreneurial entry among inventors relative to comparable patent-adjacent workers. We then use patent text and Cooperative Patent Classification (CPC) codes to examine the technological direction of inventors who found ventures. We found that founders in states without employee-invention protections pursued technologies further from their prior inventions relative to founders in states with employee-invention protections, even when employee protections were considered. Our findings suggest that ownership rules for employee inventions shape both entrepreneurial entry and the direction of subsequent innovation.</p>
 </div>
-<figure>
-<img src="/assets/img/jmp-entrepreneurship-figure.png" alt="Estimated treatment effects on founder outcomes around the 2008 DDB ruling">
-<figcaption>Estimated effects on founder outcomes relative to the 2008 DDB ruling.</figcaption>
-</figure>
+
+<div style="flex: 1 1 350px; min-width: 0; display: flex; flex-direction: column; align-items: center;">
+<img src="/assets/img/jmp-entrepreneurship-figure.png" alt="Estimated treatment effects on founder outcomes around the 2008 DDB ruling" style="display: block; float: none; width: 100%; max-width: 550px; height: auto;">
+<p style="display: block; clear: both; width: 100%; max-width: 550px; margin: 8px 0 0; text-align: center; font-size: 0.85rem; line-height: 1.4;">Estimated effects on founder outcomes relative to the 2008 DDB ruling.</p>
+</div>
+
 </div>
 </details>
 
