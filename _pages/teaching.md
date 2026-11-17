@@ -55,6 +55,8 @@ nav_order: 3
 
 **Instructor** · Spring 2025 and Spring 2026
 
+[Spring 2026 Teaching Evaluations](/assets/pdf/social-entrepreneurship-evaluations-spring-2026.pdf)
+
 <div class="teaching-highlight">
   I developed Social Entrepreneurship from the ground up for the Department
   of Management Science &amp; Engineering and serve as its instructor.
