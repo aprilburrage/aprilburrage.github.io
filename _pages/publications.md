@@ -4,61 +4,96 @@ permalink: /publications/
 title: research
 nav: true
 nav_order: 2
-_styles: |
-  .post article h2 {
-    color: #17365D;
-    border-bottom: 2px solid #D8E1EA;
-    padding-bottom: 0.4rem;
+---
+
+<style>
+  /* Section headings */
+  .research-page h2 {
+    color: #5b2434 !important;
+    border-bottom: 1px solid #e3d6d9;
+    padding-bottom: 0.45rem;
     margin-top: 2.5rem;
     margin-bottom: 1.25rem;
-    font-size: 1.4rem;
   }
 
-  .post article h3 {
-    color: #243B53;
+  .research-page h3 {
+    color: #5b2434 !important;
     font-size: 1.12rem;
     line-height: 1.45;
-    font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
 
-  .post article a {
-    color: #245A81;
-    text-decoration: none;
+  /* Regular links, including coauthors */
+  .research-page a {
+    color: #245a81;
   }
 
-  .post article a:hover {
-    color: #17365D;
+  .research-page a:hover {
     text-decoration: underline;
   }
 
-  .post article details {
-    margin: 0.75rem 0 1.5rem;
-  }
-
-  .post article summary {
-    color: #245A81;
+  /* Paper, journal, and report buttons */
+  .research-page a.research-button {
+    display: inline-block;
+    padding: 0.35rem 0.8rem;
+    margin: 0.35rem 0.4rem 0.35rem 0;
+    border: 1px solid #5b2434;
+    border-radius: 4px;
+    color: #5b2434 !important;
+    font-size: 0.9rem;
     font-weight: 600;
+    text-decoration: none !important;
+  }
+
+  .research-page a.research-button:hover {
+    background-color: #f8f3f4;
+  }
+
+  /* Abstract buttons */
+  .research-page details {
+    margin: 0.5rem 0 1.5rem;
+  }
+
+  .research-page summary {
+    display: inline-block;
     cursor: pointer;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid #5b2434;
+    border-radius: 4px;
+    color: #5b2434;
+    font-size: 0.9rem;
+    font-weight: 600;
   }
 
-  .post article details[open] summary {
-    margin-bottom: 0.75rem;
+  .research-page summary:hover {
+    background-color: #f8f3f4;
   }
 
-  .post article details p {
-    line-height: 1.75;
+  .research-page summary::before {
+    content: "▸ ";
   }
 
-  .post article hr {
+  .research-page details[open] > summary::before {
+    content: "▾ ";
+  }
+
+  .research-page details[open] > summary {
+    margin-bottom: 0.8rem;
+  }
+
+  .research-page details p {
+    line-height: 1.7;
+  }
+
+  .research-page hr {
     border: 0;
-    border-top: 1px solid #D8E1EA;
+    border-top: 1px solid #e3d6d9;
     margin: 2rem 0;
   }
 
-  /* Abstract and figure layout */
-  .post article .abstract-figure {
+  /* Abstract and figure side by side */
+  .research-page .abstract-figure {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 1.5rem;
@@ -66,51 +101,58 @@ _styles: |
     margin-top: 1rem;
   }
 
-  .post article .abstract-figure figure {
+  .research-page .abstract-figure figure {
     display: block;
     float: none;
     width: 100%;
     margin: 0;
   }
 
-  .post article .abstract-figure img {
+  .research-page .abstract-figure img {
     display: block;
     float: none;
     width: 100%;
     height: auto;
   }
 
-  .post article .abstract-figure figcaption {
+  .research-page .abstract-figure figcaption {
     display: block;
     clear: both;
     width: 100%;
     margin-top: 0.5rem;
-    color: #52616A;
+    color: #52616a;
     font-size: 0.85rem;
     line-height: 1.5;
     text-align: center;
   }
 
+  /* Stack the abstract and figure on smaller screens */
   @media (max-width: 768px) {
-    .post article .abstract-figure {
+    .research-page .abstract-figure {
       grid-template-columns: 1fr;
     }
   }
 
-  html[data-theme="dark"] .post article h2,
-  html[data-theme="dark"] .post article h3 {
-    color: #B8CFE5;
+  /* Improve contrast in dark mode */
+  html[data-theme="dark"] .research-page h2,
+  html[data-theme="dark"] .research-page h3,
+  html[data-theme="dark"] .research-page summary,
+  html[data-theme="dark"] .research-page a.research-button {
+    color: #e8c6cf !important;
+    border-color: #e8c6cf;
   }
 
-  html[data-theme="dark"] .post article a,
-  html[data-theme="dark"] .post article summary {
-    color: #A9D1ED;
+  html[data-theme="dark"] .research-page summary:hover,
+  html[data-theme="dark"] .research-page a.research-button:hover {
+    background-color: #443038;
   }
 
-  html[data-theme="dark"] .post article .abstract-figure figcaption {
-    color: #D0D0D0;
+  html[data-theme="dark"] .research-page .abstract-figure figcaption {
+    color: #d0d0d0;
   }
----
+</style>
+
+<div class="research-page" markdown="1">
 
 ## Job Market Paper
 
@@ -118,21 +160,20 @@ _styles: |
 
 with [Jillian Grennan](https://www.jilliangrennan.com/)
 
-[Paper](/job-market-paper/burrage-grennan_job-market-paper.pdf)
+<a class="research-button" href="/job-market-paper/burrage-grennan_job-market-paper.pdf">Paper</a>
 
 <details>
 <summary>Abstract</summary>
-<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; margin-top: 16px;">
 
-<div style="flex: 1 1 350px; min-width: 0;">
+<div class="abstract-figure">
+<div>
 <p>Who owns an idea before it becomes an invention and how do strengthened employer ownership rights shape entrepreneurship? We exploit a 2008 Federal Circuit decision that widened the gap in employer ownership rights over employee inventions across states with and without employee-invention protections. Linking employment histories, patents, and venture-financing data, we examine entrepreneurial transitions among inventors and patent-adjacent workers employed by established firms. Stronger employer rights significantly reduce entrepreneurial entry among inventors relative to comparable patent-adjacent workers. We then use patent text and Cooperative Patent Classification (CPC) codes to examine the technological direction of inventors who found ventures. We found that founders in states without employee-invention protections pursued technologies further from their prior inventions relative to founders in states with employee-invention protections, even when employee protections were considered. Our findings suggest that ownership rules for employee inventions shape both entrepreneurial entry and the direction of subsequent innovation.</p>
 </div>
 
-<div style="flex: 1 1 350px; min-width: 0; display: flex; flex-direction: column; align-items: center;">
-<img src="/assets/img/jmp-entrepreneurship-figure.png" alt="Estimated treatment effects on founder outcomes around the 2008 DDB ruling" style="display: block; float: none; width: 100%; max-width: 550px; height: auto;">
-<p style="display: block; clear: both; width: 100%; max-width: 550px; margin: 8px 0 0; text-align: center; font-size: 0.85rem; line-height: 1.4;">Estimated effects on founder outcomes relative to the 2008 DDB ruling.</p>
-</div>
-
+<figure>
+<img src="/assets/img/jmp-entrepreneurship-figure.png" alt="Estimated treatment effects on founder outcomes around the 2008 DDB ruling">
+<figcaption>Estimated effects on founder outcomes relative to the 2008 DDB ruling.</figcaption>
+</figure>
 </div>
 </details>
 
@@ -145,14 +186,16 @@ with [Jillian Grennan](https://www.jilliangrennan.com/)
 with [Nilanjana Dasgupta](https://www.umass.edu/psychological-brain-sciences/about/directory/nilanjana-dasgupta) and [Ina Ganguli](https://websites.umass.edu/iganguli/)<br>
 *Research Policy*, 2025
 
-[Journal Link](https://doi.org/10.1016/j.respol.2024.105169)
+<a class="research-button" href="https://doi.org/10.1016/j.respol.2024.105169">Journal Link</a>
 
 <details>
 <summary>Abstract</summary>
+
 <div class="abstract-figure">
 <div>
 <p>This study examines gender differences in the social impact and commercial motives for academic entrepreneurship using the National Science Foundation’s Innovation Corps (NSF I-Corps) program. I-Corps provides experiential entrepreneurship training to faculty and graduate student researchers at local I-Corps university sites and through a nationwide program. Since the inception of I-Corps, only 20% of participants have been women. We first use survey data from one I-Corps university site to show that women had higher social entrepreneurial intentions compared to commercial entrepreneurial intentions, and their social entrepreneurial intentions were higher than men’s. We then extend and generalize this finding by analyzing 1267 publicly available project summaries from the National I-Corps Program from 2011 to 2019. We find that women PIs’ project proposals emphasized social impact significantly more than men, while projects for all PIs emphasized commercial impact to a similar degree. We next ran a field experiment to estimate the causal impact of social impact vs. commercial motives by experimentally manipulating the recruitment email messages inviting researchers to participate in the I-Corps training program. We find that women were more likely to show interest in a social impact version of a message compared to a commercial version, while men showed equal interest in both types of messages. Taken together, our results indicate that women are more interested in pursuing commercialization and entrepreneurship activities when they are tackling societal problems. They suggest that low-cost interventions that emphasize the social impact value of entrepreneurial opportunities may increase gender diversity in entrepreneurship activities.</p>
 </div>
+
 <figure>
 <img src="/assets/img/icorps_fig3.png" alt="Gender difference in response to social-impact versus commercial email framing">
 <figcaption>Gender difference in the effect of email framing on email opens.</figcaption>
@@ -167,16 +210,18 @@ with [Nilanjana Dasgupta](https://www.umass.edu/psychological-brain-sciences/abo
 with [Rachel Atkins](https://www.rachelmbatkins.com/home)<br>
 *Journal of Economics & Management Strategy*, 2025
 
-[Journal Link](https://doi.org/10.1111/jems.12629)
+<a class="research-button" href="https://doi.org/10.1111/jems.12629">Journal Link</a>
 
 **Cited by the Brookings Institution:** [Tonantzin Carmona and Peter Rezk, “Centering Racial Equity and Inclusion in Pittsburgh’s Innovation Economy”](https://www.brookings.edu/articles/centering-racial-equity-and-inclusion-in-pittsburghs-innovation-economy/).
 
 <details>
 <summary>Abstract</summary>
+
 <div class="abstract-figure">
 <div>
 <p>Is the racial variation in the tech labor force and tech entrepreneurship associated with differences in STEM degree attainment? Using data from the American Community Survey, we examine whether racial disparities in tech employment and entrepreneurship reflect differences in STEM degree attainment within the labor force, a challenge known as the tech pipeline problem. We document that White workers are overrepresented in tech entrepreneurship, while Black, Hispanic, and Asian workers are underrepresented in tech entrepreneurship. Notably, Black workers are the only group underrepresented in tech employment relative to their share of the STEM-educated labor force. Our findings suggest that gaps in STEM degree attainment account for only a small portion of the racial disparity in the tech labor force. We also find important differences in the relationship between STEM degree attainment, tech employment, and tech entrepreneurship by race. We conclude the paper with a proposed research agenda for further study.</p>
 </div>
+
 <figure>
 <img src="/assets/img/beyond_fig.png" alt="Differences in tech entrepreneurship relative to White workers, with and without a STEM degree control">
 <figcaption>Differences in tech entrepreneurship relative to White workers, with and without a STEM degree control.</figcaption>
@@ -191,14 +236,16 @@ with [Rachel Atkins](https://www.rachelmbatkins.com/home)<br>
 with [Anna Goldstein](https://www.primecoalition.org/people-library/anna-goldstein) and [Tim Carter](https://secondnature.org/team/timothy-carter/)<br>
 *Environmental Research Letters*, 2023
 
-[Journal Link](https://doi.org/10.1088/1748-9326/ad0166)
+<a class="research-button" href="https://doi.org/10.1088/1748-9326/ad0166">Journal Link</a>
 
 <details>
 <summary>Abstract</summary>
+
 <div class="abstract-figure">
 <div>
 <p>To meet the demands of technological change required for climate change mitigation, academic research must cover a broad range of climate solutions. Diverse participation in this research is important because research shows that a variety of backgrounds and problem-solving approaches are important to solving complex problems such as climate change. In our study, we examine the disciplinary and institutional diversity of federal funding for academic research on climate solutions (ARCS) in the United States. We identify $1.42 billion in federal funding for ARCS in fiscal years 2019 and 2020. Our findings reveal that 85% of federal ARCS grants are awarded to Principal Investigators in engineering and the natural sciences. Additionally, institutions classified as having high research activity (R1s) receive over 60% of the ARCS funding per student. Tribal institutions, Historically Black Colleges and Universities, and Hispanic Serving Institutions collectively receive only $109.20 in ARCS funding per student, compared to $334.30 per student for other institution types. These disparities in federally funded ARCS grants are, in part, a consequence of the absence of policies that promote interdisciplinary collaboration and broader participation in academic research. We discuss the policy implications that have contributed to the identified inequities in ARCS funding and current policies that could enhance the distribution of ARCS in the future. We propose strategies for federally funded ARCS to support an equitable energy transition that addresses the needs of contemporary society and beyond.</p>
 </div>
+
 <figure>
 <img src="/assets/img/climate_solutions_per_student.png" alt="Climate solutions research funding per full-time enrolled student by institution type">
 <figcaption>Climate solutions research funding per full-time enrolled student, by institution type.</figcaption>
@@ -254,7 +301,7 @@ This paper examines how firms make strategic choices about where to direct resou
 with [Janell Ciemiecki](https://upop.mit.edu/profiles/janell-ciemiecki/), [Stephanie Couch](https://lemelson.mit.edu/forging-pathway-invention-education/leadership-staff/stephanie-couch), and [Ina Ganguli](https://websites.umass.edu/iganguli/)<br>
 *Technology & Innovation*, 2022
 
-[Journal Link](https://doi.org/10.21300/22.3.2022.8)
+<a class="research-button" href="https://doi.org/10.21300/22.3.2022.8">Journal Link</a>
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -270,7 +317,7 @@ We present novel evidence from over 2,000 student inventors from colleges and un
 with [Tim Carter](https://secondnature.org/team/timothy-carter/) and [Anna Goldstein](https://www.primecoalition.org/people-library/anna-goldstein)<br>
 *Second Nature*, 2022
 
-[Report](https://secondnature.org/wp-content/uploads/Sloan-Foundation_Future-of-Academic-Research-Report.pdf)
+<a class="research-button" href="https://secondnature.org/wp-content/uploads/Sloan-Foundation_Future-of-Academic-Research-Report.pdf">Report</a>
 
 <details markdown="1">
 <summary>Abstract</summary>
@@ -278,3 +325,4 @@ with [Tim Carter](https://secondnature.org/team/timothy-carter/) and [Anna Golds
 This report examines how federal funding for academic research on climate solutions is distributed across disciplines and institutions and how research can better contribute to equitable climate solutions. Drawing on data from 1,829 federal grants awarded in fiscal years 2019 and 2020 and interviews with key stakeholders, we find that funding is concentrated in natural sciences, engineering, and institutions with very high research activity. We recommend expanding participation across disciplines and institution types, strengthening partnerships with affected communities and industry, and improving coordination of federal research funding.
 
 </details>
+
