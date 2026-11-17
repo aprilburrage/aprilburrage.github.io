@@ -5,24 +5,17 @@ title: research
 nav: true
 nav_order: 2
 _styles: |
-  /* Page title */
-  .post .post-title {
-    color: #7B263B;
-  }
-
-  /* Section headings */
   .post article h2 {
-    color: #7B263B;
-    border-bottom: 2px solid #E6D5D9;
+    color: #17365D;
+    border-bottom: 2px solid #D8E1EA;
     padding-bottom: 0.4rem;
     margin-top: 2.5rem;
     margin-bottom: 1.25rem;
     font-size: 1.4rem;
   }
 
-  /* Paper titles */
   .post article h3 {
-    color: #7B263B;
+    color: #243B53;
     font-size: 1.12rem;
     line-height: 1.45;
     font-weight: 600;
@@ -30,7 +23,6 @@ _styles: |
     margin-bottom: 0.5rem;
   }
 
-  /* Links */
   .post article a {
     color: #245A81;
     text-decoration: none;
@@ -41,13 +33,12 @@ _styles: |
     text-decoration: underline;
   }
 
-  /* Abstract dropdown */
   .post article details {
     margin: 0.75rem 0 1.5rem;
   }
 
   .post article summary {
-    color: #35665B;
+    color: #245A81;
     font-weight: 600;
     cursor: pointer;
   }
@@ -60,7 +51,13 @@ _styles: |
     line-height: 1.75;
   }
 
-  /* Abstract and figure side by side */
+  .post article hr {
+    border: 0;
+    border-top: 1px solid #D8E1EA;
+    margin: 2rem 0;
+  }
+
+  /* Abstract and figure layout */
   .post article .abstract-figure {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -69,7 +66,6 @@ _styles: |
     margin-top: 1rem;
   }
 
-  /* Keep the figure and caption together */
   .post article .abstract-figure figure {
     display: block;
     float: none;
@@ -89,38 +85,26 @@ _styles: |
     clear: both;
     width: 100%;
     margin-top: 0.5rem;
+    color: #52616A;
     font-size: 0.85rem;
     line-height: 1.5;
     text-align: center;
-    color: #52616A;
   }
 
-  .post article hr {
-    border: 0;
-    border-top: 1px solid #E6D5D9;
-    margin: 2rem 0;
-  }
-
-  /* Stack the abstract and figure on smaller screens */
   @media (max-width: 768px) {
     .post article .abstract-figure {
       grid-template-columns: 1fr;
     }
   }
 
-  /* Colors for dark mode */
-  html[data-theme="dark"] .post .post-title,
   html[data-theme="dark"] .post article h2,
   html[data-theme="dark"] .post article h3 {
-    color: #E6B3BF;
+    color: #B8CFE5;
   }
 
-  html[data-theme="dark"] .post article a {
-    color: #A9D1ED;
-  }
-
+  html[data-theme="dark"] .post article a,
   html[data-theme="dark"] .post article summary {
-    color: #A8D3BF;
+    color: #A9D1ED;
   }
 
   html[data-theme="dark"] .post article .abstract-figure figcaption {
