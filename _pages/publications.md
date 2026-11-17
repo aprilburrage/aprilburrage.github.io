@@ -24,12 +24,12 @@ _styles: |
   }
 
   .post article a {
-    color: #245A81;
+    color: #7B263B;
     text-decoration: none;
   }
 
   .post article a:hover {
-    color: #17365D;
+    color: #581729;
     text-decoration: underline;
   }
 
@@ -38,7 +38,7 @@ _styles: |
   }
 
   .post article summary {
-    color: #245A81;
+    color: #35665B;
     font-weight: 600;
     cursor: pointer;
   }
@@ -47,8 +47,7 @@ _styles: |
     margin-bottom: 0.75rem;
   }
 
-  .post article details p,
-  .post article details li {
+  .post article details p {
     line-height: 1.75;
   }
 
@@ -58,20 +57,52 @@ _styles: |
     margin: 2rem 0;
   }
 
+  .abstract-figure {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    margin-top: 1rem;
+  }
+
+  .abstract-figure figure {
+    margin: 0;
+  }
+
+  .abstract-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .abstract-figure figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .abstract-figure {
+      grid-template-columns: 1fr;
+    }
+  }
+
   html[data-theme="dark"] .post article h2,
   html[data-theme="dark"] .post article h3 {
     color: #B8CFE5;
   }
 
-  html[data-theme="dark"] .post article a,
+  html[data-theme="dark"] .post article a {
+    color: #E6B3BF;
+  }
+
   html[data-theme="dark"] .post article summary {
-    color: #A9D1ED;
+    color: #A8D3BF;
   }
 ---
 
 ## Job Market Paper
-
-<div class="featured-paper" markdown="1">
 
 ### Employee Intellectual Property Rights and Innovation-Driven Entrepreneurship
 
@@ -79,14 +110,18 @@ with [Jillian Grennan](https://www.jilliangrennan.com/)
 
 [Paper](/job-market-paper/burrage-grennan_job-market-paper.pdf)
 
-<details markdown="1">
+<details>
 <summary>Abstract</summary>
-
-Who owns an idea before it becomes an invention and how do strengthened employer ownership rights shape entrepreneurship? We exploit a 2008 Federal Circuit decision that widened the gap in employer ownership rights over employee inventions across states with and without employee-invention protections. Linking employment histories, patents, and venture-financing data, we examine entrepreneurial transitions among inventors and patent-adjacent workers employed by established firms. Stronger employer rights significantly reduce entrepreneurial entry among inventors relative to comparable patent-adjacent workers. We then use patent text and Cooperative Patent Classification (CPC) codes to examine the technological direction of inventors who found ventures. We found that founders in states without employee-invention protections pursued technologies further from their prior inventions relative to founders in states with employee-invention protections, even when employee protections were considered. Our findings suggest that ownership rules for employee inventions shape both entrepreneurial entry and the direction of subsequent innovation.
-
-</details>
-
+<div class="abstract-figure">
+<div>
+<p>Who owns an idea before it becomes an invention and how do strengthened employer ownership rights shape entrepreneurship? We exploit a 2008 Federal Circuit decision that widened the gap in employer ownership rights over employee inventions across states with and without employee-invention protections. Linking employment histories, patents, and venture-financing data, we examine entrepreneurial transitions among inventors and patent-adjacent workers employed by established firms. Stronger employer rights significantly reduce entrepreneurial entry among inventors relative to comparable patent-adjacent workers. We then use patent text and Cooperative Patent Classification (CPC) codes to examine the technological direction of inventors who found ventures. We found that founders in states without employee-invention protections pursued technologies further from their prior inventions relative to founders in states with employee-invention protections, even when employee protections were considered. Our findings suggest that ownership rules for employee inventions shape both entrepreneurial entry and the direction of subsequent innovation.</p>
 </div>
+<figure>
+<img src="/assets/img/jmp-entrepreneurship-figure.png" alt="Estimated treatment effects on founder outcomes around the 2008 DDB ruling">
+<figcaption>Estimated effects on founder outcomes relative to the 2008 DDB ruling.</figcaption>
+</figure>
+</div>
+</details>
 
 ---
 
@@ -99,12 +134,20 @@ with [Nilanjana Dasgupta](https://www.umass.edu/psychological-brain-sciences/abo
 
 [Journal Link](https://doi.org/10.1016/j.respol.2024.105169)
 
-<details markdown="1">
+<details>
 <summary>Abstract</summary>
-
-This study examines gender differences in the social impact and commercial motives for academic entrepreneurship using the National Science Foundation’s Innovation Corps (NSF I-Corps) program. I-Corps provides experiential entrepreneurship training to faculty and graduate student researchers at local I-Corps university sites and through a nationwide program. Since the inception of I-Corps, only 20% of participants have been women. We first use survey data from one I-Corps university site to show that women had higher social entrepreneurial intentions compared to commercial entrepreneurial intentions, and their social entrepreneurial intentions were higher than men’s. We then extend and generalize this finding by analyzing 1267 publicly available project summaries from the National I-Corps Program from 2011 to 2019. We find that women PIs’ project proposals emphasized social impact significantly more than men, while projects for all PIs emphasized commercial impact to a similar degree. We next ran a field experiment to estimate the causal impact of social impact vs. commercial motives by experimentally manipulating the recruitment email messages inviting researchers to participate in the I-Corps training program. We find that women were more likely to show interest in a social impact version of a message compared to a commercial version, while men showed equal interest in both types of messages. Taken together, our results indicate that women are more interested in pursuing commercialization and entrepreneurship activities when they are tackling societal problems. They suggest that low-cost interventions that emphasize the social impact value of entrepreneurial opportunities may increase gender diversity in entrepreneurship activities.
-
+<div class="abstract-figure">
+<div>
+<p>This study examines gender differences in the social impact and commercial motives for academic entrepreneurship using the National Science Foundation’s Innovation Corps (NSF I-Corps) program. I-Corps provides experiential entrepreneurship training to faculty and graduate student researchers at local I-Corps university sites and through a nationwide program. Since the inception of I-Corps, only 20% of participants have been women. We first use survey data from one I-Corps university site to show that women had higher social entrepreneurial intentions compared to commercial entrepreneurial intentions, and their social entrepreneurial intentions were higher than men’s. We then extend and generalize this finding by analyzing 1267 publicly available project summaries from the National I-Corps Program from 2011 to 2019. We find that women PIs’ project proposals emphasized social impact significantly more than men, while projects for all PIs emphasized commercial impact to a similar degree. We next ran a field experiment to estimate the causal impact of social impact vs. commercial motives by experimentally manipulating the recruitment email messages inviting researchers to participate in the I-Corps training program. We find that women were more likely to show interest in a social impact version of a message compared to a commercial version, while men showed equal interest in both types of messages. Taken together, our results indicate that women are more interested in pursuing commercialization and entrepreneurship activities when they are tackling societal problems. They suggest that low-cost interventions that emphasize the social impact value of entrepreneurial opportunities may increase gender diversity in entrepreneurship activities.</p>
+</div>
+<figure>
+<img src="/assets/img/icorps_fig3.png" alt="Gender difference in response to social-impact versus commercial email framing">
+<figcaption>Gender difference in the effect of email framing on email opens.</figcaption>
+</figure>
+</div>
 </details>
+
+---
 
 ### Beyond the Pipeline (Problem): Examining Racial and Ethnic Representation in 21st Century High Technology Self-employment
 
@@ -113,13 +156,41 @@ with [Rachel Atkins](https://www.rachelmbatkins.com/home)<br>
 
 [Journal Link](https://doi.org/10.1111/jems.12629)
 
-**Cited by the Brookings Institution:** [Tonantzin Carmona and Peter Rezk, “Centering Racial Equity and Inclusion in Pittsburgh’s Innovation Economy,” ](https://www.brookings.edu/articles/centering-racial-equity-and-inclusion-in-pittsburghs-innovation-economy/).
+**Cited by the Brookings Institution:** [Tonantzin Carmona and Peter Rezk, “Centering Racial Equity and Inclusion in Pittsburgh’s Innovation Economy”](https://www.brookings.edu/articles/centering-racial-equity-and-inclusion-in-pittsburghs-innovation-economy/).
 
-<details markdown="1">
+<details>
 <summary>Abstract</summary>
+<div class="abstract-figure">
+<div>
+<p>Is the racial variation in the tech labor force and tech entrepreneurship associated with differences in STEM degree attainment? Using data from the American Community Survey, we examine whether racial disparities in tech employment and entrepreneurship reflect differences in STEM degree attainment within the labor force, a challenge known as the tech pipeline problem. We document that White workers are overrepresented in tech entrepreneurship, while Black, Hispanic, and Asian workers are underrepresented in tech entrepreneurship. Notably, Black workers are the only group underrepresented in tech employment relative to their share of the STEM-educated labor force. Our findings suggest that gaps in STEM degree attainment account for only a small portion of the racial disparity in the tech labor force. We also find important differences in the relationship between STEM degree attainment, tech employment, and tech entrepreneurship by race. We conclude the paper with a proposed research agenda for further study.</p>
+</div>
+<figure>
+<img src="/assets/img/beyond_fig.png" alt="Differences in tech entrepreneurship relative to White workers, with and without a STEM degree control">
+<figcaption>Differences in tech entrepreneurship relative to White workers, with and without a STEM degree control.</figcaption>
+</figure>
+</div>
+</details>
 
-Is the racial variation in the tech labor force and tech entrepreneurship associated with differences in STEM degree attainment? Using data from the American Community Survey, we examine whether racial disparities in tech employment and entrepreneurship reflect differences in STEM degree attainment within the labor force, a challenge known as the tech pipeline problem. We document that White workers are overrepresented in tech entrepreneurship, while Black, Hispanic, and Asian workers are underrepresented in tech entrepreneurship. Notably, Black workers are the only group underrepresented in tech employment relative to their share of the STEM-educated labor force. Our findings suggest that gaps in STEM degree attainment account for only a small portion of the racial disparity in the tech labor force. We also find important differences in the relationship between STEM degree attainment, tech employment, and tech entrepreneurship by race. We conclude the paper with a proposed research agenda for further study.
+---
 
+### Disciplinary and Institutional Diversity of Federally Funded Academic Research on Climate Solutions in the United States
+
+with [Anna Goldstein](https://www.primecoalition.org/people-library/anna-goldstein) and [Tim Carter](https://secondnature.org/team/timothy-carter/)<br>
+*Environmental Research Letters*, 2023
+
+[Journal Link](https://doi.org/10.1088/1748-9326/ad0166)
+
+<details>
+<summary>Abstract</summary>
+<div class="abstract-figure">
+<div>
+<p>To meet the demands of technological change required for climate change mitigation, academic research must cover a broad range of climate solutions. Diverse participation in this research is important because research shows that a variety of backgrounds and problem-solving approaches are important to solving complex problems such as climate change. In our study, we examine the disciplinary and institutional diversity of federal funding for academic research on climate solutions (ARCS) in the United States. We identify $1.42 billion in federal funding for ARCS in fiscal years 2019 and 2020. Our findings reveal that 85% of federal ARCS grants are awarded to Principal Investigators in engineering and the natural sciences. Additionally, institutions classified as having high research activity (R1s) receive over 60% of the ARCS funding per student. Tribal institutions, Historically Black Colleges and Universities, and Hispanic Serving Institutions collectively receive only $109.20 in ARCS funding per student, compared to $334.30 per student for other institution types. These disparities in federally funded ARCS grants are, in part, a consequence of the absence of policies that promote interdisciplinary collaboration and broader participation in academic research. We discuss the policy implications that have contributed to the identified inequities in ARCS funding and current policies that could enhance the distribution of ARCS in the future. We propose strategies for federally funded ARCS to support an equitable energy transition that addresses the needs of contemporary society and beyond.</p>
+</div>
+<figure>
+<img src="/assets/img/climate_solutions_per_student.png" alt="Climate solutions research funding per full-time enrolled student by institution type">
+<figcaption>Climate solutions research funding per full-time enrolled student, by institution type.</figcaption>
+</figure>
+</div>
 </details>
 
 ---
@@ -149,6 +220,8 @@ with [Ina Ganguli](https://websites.umass.edu/iganguli/)
 This paper examines how early inventive talent develops and how institutional outreach shapes participation in invention opportunities. Using data on applicants to the Lemelson-MIT Student Prize, we follow student inventors into patenting and study how university outreach affects the composition of the applicant pool.
 
 </details>
+
+---
 
 ### From Complementarity to Constraint: Firm Navigation of Overlapping Innovation Incentives
 
