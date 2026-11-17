@@ -5,13 +5,17 @@ permalink: /cv/
 nav: true
 nav_order: 4
 ---
+
 <div style="text-align: center; margin-bottom: 1em;">
-  <a href="/assets/pdf/2026_burrage_cv_web.pdf" target="_blank">Download CV (PDF)</a>
+  <a href="/assets/pdf/2026_burrage_cv_world.pdf" target="_blank" rel="noopener">
+    Download CV (PDF)
+  </a>
 </div>
 
-<iframe 
+<iframe
   src="/assets/pdf/2026_burrage_cv_world.pdf"
-  width="100%" 
-  height="900px" 
+  title="April Burrage's CV"
+  width="100%"
+  height="900px"
   style="border: none;">
 </iframe>
