@@ -7,9 +7,11 @@ nav_order: 3
 ---
 
 <style>
+  /* Black, bold section and course headings */
   .teaching-page h2,
   .teaching-page h3 {
-    color: #17365d !important;
+    color: #222222 !important;
+    font-weight: 700;
   }
 
   .teaching-page h2 {
@@ -22,6 +24,7 @@ nav_order: 3
     margin-bottom: 0.3rem;
   }
 
+  /* Course development highlight */
   .teaching-highlight {
     background-color: #f3f6f9;
     border-left: 4px solid #17365d;
@@ -78,9 +81,12 @@ nav_order: 3
     background-color: #f3f6f9;
   }
 
-  /* Dark mode */
+  /* Light headings and navy buttons in dark mode */
   html[data-theme="dark"] .teaching-page h2,
-  html[data-theme="dark"] .teaching-page h3,
+  html[data-theme="dark"] .teaching-page h3 {
+    color: #eeeeee !important;
+  }
+
   html[data-theme="dark"] .teaching-page summary,
   html[data-theme="dark"] .teaching-page a.teaching-button {
     color: #b8cfe5 !important;
