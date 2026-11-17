@@ -5,17 +5,24 @@ title: research
 nav: true
 nav_order: 2
 _styles: |
+  /* Page title */
+  .post .post-title {
+    color: #7B263B;
+  }
+
+  /* Section headings */
   .post article h2 {
-    color: #17365D;
-    border-bottom: 2px solid #D8E1EA;
+    color: #7B263B;
+    border-bottom: 2px solid #E6D5D9;
     padding-bottom: 0.4rem;
     margin-top: 2.5rem;
     margin-bottom: 1.25rem;
     font-size: 1.4rem;
   }
 
+  /* Paper titles */
   .post article h3 {
-    color: #243B53;
+    color: #7B263B;
     font-size: 1.12rem;
     line-height: 1.45;
     font-weight: 600;
@@ -23,16 +30,18 @@ _styles: |
     margin-bottom: 0.5rem;
   }
 
+  /* Links */
   .post article a {
-    color: #7B263B;
+    color: #245A81;
     text-decoration: none;
   }
 
   .post article a:hover {
-    color: #581729;
+    color: #17365D;
     text-decoration: underline;
   }
 
+  /* Abstract dropdown */
   .post article details {
     margin: 0.75rem 0 1.5rem;
   }
@@ -51,13 +60,8 @@ _styles: |
     line-height: 1.75;
   }
 
-  .post article hr {
-    border: 0;
-    border-top: 1px solid #D8E1EA;
-    margin: 2rem 0;
-  }
-
-  .abstract-figure {
+  /* Abstract and figure side by side */
+  .post article .abstract-figure {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 1.5rem;
@@ -65,40 +69,62 @@ _styles: |
     margin-top: 1rem;
   }
 
-  .abstract-figure figure {
+  /* Keep the figure and caption together */
+  .post article .abstract-figure figure {
+    display: block;
+    float: none;
+    width: 100%;
     margin: 0;
   }
 
-  .abstract-figure img {
+  .post article .abstract-figure img {
     display: block;
+    float: none;
     width: 100%;
     height: auto;
   }
 
-  .abstract-figure figcaption {
+  .post article .abstract-figure figcaption {
+    display: block;
+    clear: both;
+    width: 100%;
     margin-top: 0.5rem;
     font-size: 0.85rem;
     line-height: 1.5;
     text-align: center;
+    color: #52616A;
   }
 
+  .post article hr {
+    border: 0;
+    border-top: 1px solid #E6D5D9;
+    margin: 2rem 0;
+  }
+
+  /* Stack the abstract and figure on smaller screens */
   @media (max-width: 768px) {
-    .abstract-figure {
+    .post article .abstract-figure {
       grid-template-columns: 1fr;
     }
   }
 
+  /* Colors for dark mode */
+  html[data-theme="dark"] .post .post-title,
   html[data-theme="dark"] .post article h2,
   html[data-theme="dark"] .post article h3 {
-    color: #B8CFE5;
+    color: #E6B3BF;
   }
 
   html[data-theme="dark"] .post article a {
-    color: #E6B3BF;
+    color: #A9D1ED;
   }
 
   html[data-theme="dark"] .post article summary {
     color: #A8D3BF;
+  }
+
+  html[data-theme="dark"] .post article .abstract-figure figcaption {
+    color: #D0D0D0;
   }
 ---
 
