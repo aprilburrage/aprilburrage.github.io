@@ -31,7 +31,7 @@ Across my research, I ask:
 2. How do public policies and program design shape access to entrepreneurial opportunities and participation in innovation?
 3. How do career experiences and professional networks influence entrepreneurs’ access to resources and opportunities?
 
-In my [job market paper](/job-market-paper/burrage-grennan_job-market-paper.pdf), with [Jillian Grennan](https://www.jilliangrennan.com/), we examine how employer rights over employee inventions affect entrepreneurial entry and the direction of innovation. This research was supported by the Washington Center for Equitable Growth.
+In my job market paper, with [Jillian Grennan](https://www.jilliangrennan.com/), we examine how employer rights over employee inventions affect entrepreneurial entry and the direction of innovation. This research was supported by the Washington Center for Equitable Growth.
 
 My research has been published in *Research Policy*, the *Journal of Economics & Management Strategy*, and *Environmental Research Letters*, and has been cited by the Brookings Institution. My work has received support from the National Science Foundation and the Alfred P. Sloan Foundation.
 
