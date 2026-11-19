@@ -166,8 +166,6 @@ nav_order: 2
 
 with [Jillian Grennan](https://www.jilliangrennan.com/)
 
-<a class="research-button" href="/job-market-paper/burrage-grennan_job-market-paper.pdf">Paper</a>
-
 <details>
 <summary>Abstract</summary>
 
